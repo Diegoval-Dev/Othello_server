@@ -7,8 +7,8 @@ import numpy as np
 import time
 import requests
 
-#host = 'http://localhost:8000'
-host = 'http://ec2-34-204-14-38.compute-1.amazonaws.com'
+host = 'http://localhost:8000'
+#host = 'http://ec2-34-204-14-38.compute-1.amazonaws.com'
 
 st.session_state.game_id = st.session_state.get('game_id', '')
 st.session_state.game_status = st.session_state.get('game_id', 'new')
